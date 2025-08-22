@@ -72,10 +72,10 @@
     {
       "question": "5.Why is a water-filled butyrometer used during centrifugation?",
       "answers": {
-        "a": "2 minutes at 1500 rpm",
-        "b": "5 minutes at 1200 rpm",
-        "c": "4 minutes at 1100 rpm",
-        "d": "10 minutes at 800 rpm"
+        "a": "To determine SNF in water",
+        "b": "For temperature control",
+        "c": "To balance the centrifuge",
+        "d": "To absorb heat"
       },
       "explanations": {
         "a": "Explanation 1",
