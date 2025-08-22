@@ -1,1 +1,1 @@
-### Link your theory in here
+Solid non-fat is an important criterion of milk selection for further processing. Milk solids non-fat would include the nitrogenous substances, milk sugar and mineral matter. Solid non-fat is an important criterion of milk selection for further processing. The determination of solid non-fat is done by taking Lactometer reading at 40°C.
