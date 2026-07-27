@@ -49,6 +49,7 @@ const butryometerWaterSolution = $id("pouringSolution1");
 const sulphuricAcidSolution = $id("sulphuric-acid-solution");
 const milkSolution = $id("milk-solution-w");
 const butryometerFilling = $id("butryometer-filling");
+const butryometerFillingc = $id("butryometer-fillingc");
 const amylAlcoholContainer = $id("amyl-alcohol-w");
 const amylAlcoholSolution = $id("amyl-alcohol-solution");
 const waterMeasuringCylinder = $id("waterMeasuringCylinder");
@@ -250,6 +251,10 @@ pipette.addEventListener("click", async () => {
       pouringMilkSolution.classList.add("pouring1");
       await wait(800);
       butryometerFilling.classList.add("filling1");
+      await wait(1300);
+      butryometerFilling.style.display = "none";
+      butryometerFillingc.style.display = "block";
+
       updateInstruction(experimentStep);
       experimentStep = 4;
     } else if (experimentStep === 4) {
@@ -352,13 +357,20 @@ butryometer.addEventListener("click", async () => {
     experimentStep = 3;
   } else if (experimentStep === 5) {
     butryometer.style.transform = "translate(0vw,-40vh)";
+    butryometerFillingc.style.transform = "translate(0vw,-20vh)";
     butryometerFilling.style.transform = "translate(0vw,-20vh)";
+    butryometer.style.zIndex = 3;
     await wait(1000);
     butryometer.style.transform = "translate(-20.4vw,-40vh)";
+    butryometerFillingc.style.transform = "translate(-20.4vw,-20vh)";
     butryometerFilling.style.transform = "translate(-20.4vw,-20vh)";
     await wait(1000);
     butryometer.style.transform = "translate(-20.4vw,-25vh)";
+    butryometerFillingc.style.transform = "translate(-20.4vw,-5vh)";
     butryometerFilling.style.transform = "translate(-20.4vw,-5vh)";
+    butryometerFilling.style.display = "block";
+    butryometerFillingc.style.display = "none";
+
     updateInstruction(experimentStep);
     experimentStep = 6;
     console.log("step no.", experimentStep);
@@ -639,32 +651,37 @@ async function startBathProcessSecondCycle() {
     }
   }
 }
+/* =============== Centrifuge Lid Helper & Handler ==================== */
+/* =============== Centrifuge Lid Handler ==================== */
+
+async function handleCentrifugeLid(action) {
+  if (action === "open") {
+    // Elevate slightly and swing open backwards along the hinge
+    centrifugeLid.style.zIndex = "25";
+    centrifugeLid.style.transform =
+      "translateY(-4.5vh) rotateX(-75deg) rotateZ(5deg)";
+    await wait(800);
+  } else if (action === "close") {
+    // Swing back down flat onto the centrifuge
+    centrifugeLid.style.transform =
+      "translateY(0vh) rotateX(0deg) rotateZ(0deg)";
+    await wait(800);
+    centrifugeLid.style.zIndex = "21";
+  }
+}
+
+// Event Listener
 centrifugeLid.addEventListener("click", async () => {
   if (experimentStep === 10) {
-    centrifugeLid.style.transform = "translate(0vw,-12vh)";
-    await wait(1000);
-    centrifugeLid.style.transform = "translate(24vw,-12vh)";
-    await wait(1000);
-    centrifugeLid.style.zIndex = 21;
-    centrifugeLid.style.transform = "translate(24vw,26vh)";
+    await handleCentrifugeLid("open");
     updateInstruction(experimentStep);
     experimentStep = 11;
   } else if (experimentStep === 15) {
-    centrifugeLid.style.zIndex = 25;
-    centrifugeLid.style.transform = "translate(24vw,-12vh)";
-    await wait(1000);
-    centrifugeLid.style.transform = "translate(0vw,-12vh)";
-    await wait(1000);
-    centrifugeLid.style.transform = "translate(0vw,0vh)";
+    await handleCentrifugeLid("close");
     updateInstruction(experimentStep);
-
     experimentStep = 16;
   } else if (experimentStep === 18) {
-    centrifugeLid.style.transform = "translate(0vw,-12vh)";
-    await wait(1000);
-    centrifugeLid.style.transform = "translate(24vw,-12vh)";
-    await wait(1000);
-    centrifugeLid.style.transform = "translate(24vw,26vh)";
+    await handleCentrifugeLid("open");
     updateInstruction(experimentStep);
     experimentStep = 19;
   }

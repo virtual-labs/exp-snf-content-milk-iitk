@@ -75,6 +75,7 @@ body {
 #pouringSolution1,
 #pouringMilkSolution,
 #butryometer-filling,
+#butryometer-fillingc,
 #waterButryometer,
 #waterMeasuringCylinder,
 #pipetteWater-w,
@@ -189,8 +190,8 @@ body {
   width: 1.5vw;
   left: 31.35vw;
   bottom: 0%;
-  z-index: 3;
-  transform: rotate(90deg);
+  z-index: 50;
+  transform: rotate(0deg);
 }
 #butryometer1-w {
   width: 1.5vw;
@@ -198,7 +199,7 @@ body {
   display: none;
   bottom: 5%;
   z-index: 3;
-  transform: rotate(90deg);
+  transform: rotate(00deg);
 }
 
 #pouringSolution {
@@ -227,6 +228,13 @@ body {
   z-index: 0;
 }
 #butryometer-filling {
+  width: 1.2vw;
+  left: 31.5vw;
+  bottom: 23.5%;
+  z-index: 1;
+  display: none;
+}
+#butryometer-fillingc {
   width: 1.2vw;
   left: 31.5vw;
   bottom: 23.5%;
@@ -268,14 +276,17 @@ body {
   z-index: 24;
 }
 
-/* Lid */
 #centrifuge-g-w {
   bottom: 41vh;
   z-index: 21;
   left: 1.8vw;
-
   will-change: transform;
-  /* display:none; */
+
+  /* Pin the rotation point along the back hinge edge */
+  transform-origin: top right;
+
+  /* Smooth animation speed */
+  transition: transform 0.8s ease-in-out;
 }
 
 #pipetteMilk {
@@ -608,13 +619,12 @@ body {
 
 #testTube {
   position: absolute;
-  background-color: red;
   left: 25vw;
-  bottom: 15vh;
+  bottom: 16vh;
   width: 15vw;
   height: 2.5vh;
   z-index: 20;
-  display: none;
+  display: block;
   /* aspect-ratio: 1 / 1; */
 
   /* top: ; */
