@@ -2,32 +2,83 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1.What is the significance of centrifuging the butyrometer mixture?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To sterilize the milk",
+        "b": "To separate the fat layer from SNF",
+        "c": "To mix the acid and milk",
+        "d": "To evaporate the fat"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2.If the corrected lactometer reading is 28 and fat percentage is 4.0%, what is the SNF %?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "8.0%",
+        "b": "8.55%",
+        "c": "9.15%",
+        "d": "10.25%"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3.The corrected lactometer reading (CLR) is calculated by adjusting for:",
+      "answers": {
+        "a": "Specific gravity",
+        "b": "Fat content",
+        "c": "Temperature deviation from 40°C",
+        "d": "Protein content"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4.What is the duration and speed of centrifugation in the SNF test procedure?",
+      "answers": {
+        "a": "2 minutes at 1500 rpm",
+        "b": "5 minutes at 1200 rpm",
+        "c": "4 minutes at 1100 rpm",
+        "d": "10 minutes at 800 rpm"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5.Why is a water-filled butyrometer used during centrifugation?",
+      "answers": {
+        "a": "To determine SNF in water",
+        "b": "For temperature control",
+        "c": "To balance the centrifuge",
+        "d": "To absorb heat"
+      },
+      "explanations": {
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
