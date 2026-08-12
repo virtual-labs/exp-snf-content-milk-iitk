@@ -1,15 +1,15 @@
-Requirements (Instruments, Chemicals & Other)<br>
-Sample of milk <br>
-Sulfuric acid (90%) <br>
-Amyl alcohol <br>
-Centriguge <br>
-Waterbath <br>
-Pipette <br>
-Butyrometer <br>
-Lactometer <br>
-Thermometer <br>
+<b>Requirements (Instruments, Chemicals & Other) :</b><br>
+1. Sample of milk <br>
+2. Sulfuric acid (90%) <br>
+3. Amyl alcohol <br>
+4. Centriguge <br>
+5. Waterbath <br>
+6. Pipette <br>
+7. Butyrometer <br>
+8. Lactometer <br>
+9. Thermometer <br>
 
-<b> Procedure </b>
+<b> Procedure :</b>
 
 1. Pipette out 10 ml H2SO4 and transfer to the butyrometer. <br>
 2. Pipette out 10.75 ml milk and add to the butyrometer. <br>
