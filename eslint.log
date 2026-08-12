@@ -1,0 +1,18 @@
+
+/home/runner/work/exp-snf-content-milk-iitk/exp-snf-content-milk-iitk/experiment/simulation/script/project.js
+     7:7   warning  '$cls' is assigned a value but never used                     no-unused-vars
+    13:7   warning  'measuringCylinder' is assigned a value but never used        no-unused-vars
+    15:7   warning  'waterBathImg' is assigned a value but never used             no-unused-vars
+    16:7   warning  'centrifugeMachine' is assigned a value but never used        no-unused-vars
+    29:7   warning  'milkMoreThan50Solution' is assigned a value but never used   no-unused-vars
+    38:7   warning  'mmBtn' is assigned a value but never used                    no-unused-vars
+    39:7   warning  'ssBtn' is assigned a value but never used                    no-unused-vars
+    47:7   warning  'butryometerMilkSolution' is assigned a value but never used  no-unused-vars
+   250:7   warning  'pouringMilkSolution' is not defined                          no-undef
+   251:7   warning  'pouringMilkSolution' is not defined                          no-undef
+   323:5   warning  'isButryometerBusy' is assigned a value but never used        no-unused-vars
+   837:10  warning  'startCentrifuge' is defined but never used                   no-unused-vars
+  1017:5   warning  Expected a 'break' statement before 'default'                 no-fallthrough
+
+✖ 13 problems (0 errors, 13 warnings)
+

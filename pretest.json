@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.Which of the following is NOT a component of SNF in milk?",
+      "answers": {
+        "a": "Milk fat",
+        "b": "Milk sugar",
+        "c": "Nitrogenous substances",
+        "d": "Mineral matter"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2.The corrected lactometer reading (CLR) is used to account for the effect of:",
+      "answers": {
+        "a": "Density",
+        "b": "Temperature",
+        "c": "pH",
+        "d": "Viscosity"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3.Which instrument is used to measure the fat content in milk during the SNF test?",
+      "answers": {
+        "a": "Lactometer",
+        "b": "Butyrometer",
+        "c": "Spectrophotometer",
+        "d": "pH meter"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4.What is the role of sulfuric acid in the fat estimation part of the SNF determination?",
+      "answers": {
+        "a": "Preserves milk",
+        "b": "Dissolves fat",
+        "c": "Digests proteins to release fat",
+        "d": "Increases SNF"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5.Which of the following is used as a clearing agent in the Gerber method?",
+      "answers": {
+        "a": "Acetic acid",
+        "b": "Amyl alcohol",
+        "c": "Sulfuric acid",
+        "d": "Water"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
